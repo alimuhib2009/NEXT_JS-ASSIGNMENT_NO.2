@@ -1,0 +1,101 @@
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 17px 17px 0 0;
+    background-color: #A35C7A;
+    color: white;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.title{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links ul{
+    display: flex;
+    gap: 2rem;
+}
+.links li{
+    list-style: none;
+    opacity: 0.8;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.icon{
+    margin: 7px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    font-weight: 100;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 0 5px;
+    background-color: #FBF5E5;
+    color: #000;
+    display: inline-block;
+}
+.desc{
+    margin: 20px 0 10px 0;
+    opacity: 0.9;
+}
+.rightsection{
+    background-color: #C890A7;
+    width: 634px;
+    height: 184px;
+    padding: 58px 40px 58px 40px;
+    border-radius: 14px;
+}
+.email{
+    width: 260px;
+    height: 67px;
+    padding: 15px;
+    border: 1px solid #FFFFFF;
+    background-color: #FBF5E5;
+    color: #000;
+    border-radius: 10px;
+}
+.btn{
+    width: 239px;
+    height: 68px;
+    padding: 20px 35px 20px 35px;
+    margin: 0 0 0 25px;
+    font-size: 17px;
+    font-weight: 500px;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 14px ;
+    background-color: #FBF5E5;
+    color: #000;
+    border: none;
+}
+
+
+.lastdesc{
+    margin: 20px 35px 0 0;
+    display: inline-block;
+
+}
+.Privacy{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
